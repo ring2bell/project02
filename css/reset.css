@@ -1,4 +1,4 @@
-*{margin:0; padding:0; border:0; }
+*{margin:0; padding:0; border:0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 html{overflow-x: hidden; overflow-y: scroll;}
 a{text-decoration: none; color: #333;}
 .cf::after{content:''; display: block; clear: both;}
