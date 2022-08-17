@@ -1,15 +1,15 @@
 #header{height: 100px; width: 100%;}
-#contant{height: 3500px; width: 100%;}
-#footer{height: 580px; width: 100%; background: black;}
+#contant{width: 100%;}
+#footer{height: 630px; width: 100%; background: black;}
 .inner{max-width: 1800px; width: 100%;  margin: auto;}
 .inner2{max-width: 1780px; width: 100%;  margin: auto;}
 
-.header_top{width: 100%; height: 40px;}
-.header_nav{width: 100%; height: 60px; background: yellow;}
-.contant1{width: 100%; height: 850px; background:url(../img/220801_cpd_run_with_nike_p1_bg.jpg) no-repeat; background-size: cover;}
-.contant2{width: 100%; height: 850px; margin-top: 200px; background: url(../img/220802_slp_p1_bg.png) no-repeat; background-size: cover; position: relative; top: 200px; }
-.contant3{width: 100%; height: 850px; margin-top: 330px; position: relative; top: 250px; }
+.header_top{width: 100%; height: 40px; background: rgb(212, 211, 211);}
+.header_nav{width: 100%; height: 60px; }
+.contant1{width: 100%; height: 850px;}
+.contant2{width: 100%; height: 850px; margin-top: 400px; margin-bottom: 250px;}
+.contant3{width: 100%; height: 850px; margin-bottom: 200px;  }
 .footer_top{width: 100%; height: 40px;}
 .footer_nav{width: 100%; height: 350px; border-top: 0.5px solid #777777; border-bottom: 0.5px solid #777777;}
 .footer_bottom{width: 100%; height: 50px; border-bottom: 0.5px solid #777777;}
-.footer_bottom2{width: 100%; height: 140px;}
+.footer_bottom2{width: 100%; height: 170px;}
