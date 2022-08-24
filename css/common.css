@@ -21,19 +21,21 @@
  .shopping_back_icon { width: 25px; height: 25px; background: url(../img/free-icon-shopping-bag-709488.png) no-repeat; background-size: cover; position: relative; top: -75px; left: 220px; } 
 /* =============//header-nav============ */
 
-img{max-width: 100%; height: 800px; position: relative; top: -50px;} 
-.txt_box1 { width: 1000px; text-align: center; margin: auto; padding-top: 50px;  } 
+
+.bg1{position: relative; top: -60px;}
+.txt_box1 { width: 1000px; text-align: center; margin: auto; padding-bottom: 50px;  } 
 .txt_box1 h2 { font-size: 40px; color: #111; font-weight: bold; margin-bottom: 20px; } 
 .txt_box1 p { font-size: 20px; color: #111; font-weight:400; } 
 .txt_box1 button { margin-top: 20px; } 
 .txt_box1 .but1 { width: 130px; height: 40px; background-color: #111; font-size: 16px; color: #fff; border-radius: 40px; } 
 .txt_box1 .but2 { width: 113px; height: 40px; background-color: #111; font-size: 16px; color: #fff; border-radius: 40px; } 
 /* =============//content1============== */
-.bg2{width: 100%;}
-.txt_box2 { width: 1000px; text-align: center; margin: auto; padding-top: 50px; } 
+.bg2{position: relative;} 
+.txt_box2 { width: 1000px; text-align: center; margin: auto; padding-top: 50px; margin-bottom: 50px;} 
 .txt_box2 h2 { font-size: 40px; color: #111; font-weight: bold; margin-bottom: 20px; } 
 .txt_box2 p { font-size: 20px; color: #111; font-weight:400; } 
-.txt_box2 button { margin-top: 20px; } 
+.txt_box2 button { margin-top: 20px; }
+.txt_box2 .but1 { width: 130px; height: 40px; background-color: #111; font-size: 16px; color: #fff; border-radius: 40px; }  
 .txt_box2 .but2 { width: 113px; height: 40px; background-color: #111; font-size: 16px; color: #fff; border-radius: 40px; } 
 /* =============//content2============== */
 
@@ -44,7 +46,7 @@ img{max-width: 100%; height: 800px; position: relative; top: -50px;}
   -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; } 
 
  .swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; } 
- .c2_txt_box{font-size: 40px; color: #111; font-weight: bold; text-align: center; margin-top: 70px;}
+ .c2_txt_box{font-size: 40px; color: #111; font-weight: bold; text-align: center; margin-top: 70px; padding-bottom: 80px;}
 
 /* =============//content3============== */
 
@@ -75,13 +77,18 @@ img{max-width: 100%; height: 800px; position: relative; top: -50px;}
     #nav li:nth-child(4)  {display: none;}
     #nav li:nth-child(5)  {display: none;}
     #nav li:nth-child(6)  {display: none;}
-    /* .contant1{background-size: cover;} */
-    .contant1 img{max-width: 100%;}
+    .sch_box{position: relative; right: 50px;}
+    #sch_text{width: 400px; position: relative; right: 150px;}
+    .search_icon {margin-right: 30px;}
+    .icons{position: relative; left: 240px;}
+    .contant1{background-size: cover;}
+   /*  .contant1 img{max-width: 100%;} */
     .contant1 .txt_box1{box-sizing: border-box; max-width: 100%; text-align: center;}
     .contant1 .txt_box1 h2{text-align: center;}
     .contant2 img{max-width: 100%;}
     .contant2 .txt_box2{box-sizing: border-box; max-width: 100%; text-align: center;}
     .contant2 .txt_box2 h2{text-align: center;}
+    .swiper-wrapper{max-width: 100%;}
     .contant3 img{max-width: 100%;}
     .c2_txt_box{box-sizing: border-box; max-width: 100%; text-align: center;}
     #footer{max-width: 100%;}
@@ -99,13 +106,20 @@ img{max-width: 100%; height: 800px; position: relative; top: -50px;}
     #nav li:nth-child(4)  {display: none;}
     #nav li:nth-child(5)  {display: none;}
     #nav li:nth-child(6)  {display: none;}
+    .sch_box{position: relative; right: 10px;}
+    #sch_text{width: 250px; position: relative; right: 150px;}
+    .search_icon {margin-right: 30px;}
+    .icons{position: relative; left: 70px;}
     /* .contant1{background-size: cover;} */
     .contant1 img{max-width: 100%;}
     .contant1 .txt_box1{box-sizing: border-box; max-width: 100%; text-align: center;}
     .contant1 .txt_box1 h2{text-align: center;}
+    .contant1 .txt_box1 p{display: none;}
     .contant2 img{max-width: 100%;}
     .contant2 .txt_box2{box-sizing: border-box; max-width: 100%; text-align: center;}
     .contant2 .txt_box2 h2{text-align: center;}
+    .contant2 .txt_box2 p{display: none;}
+    .swiper-wrapper{max-width: 100%;}
     .contant3 img{max-width: 100%;}
     .c2_txt_box{box-sizing: border-box; max-width: 100%; text-align: center;}
     .footer-top{max-width: 100%;}
@@ -114,19 +128,26 @@ img{max-width: 100%; height: 800px; position: relative; top: -50px;}
     .last_txt_left{max-width: 100%;} 
     .last_txt_right{max-width: 100%;} 
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 390px){
     .wrap .inner { width: 100%; } 
     .wrap .inner2 { width: 100%; } 
+    #nikeLogo {display: none;}
     #nav li:nth-child(2)  {z-index: -1;}
     #nav li:nth-child(3)  {display: none;}
     #nav li:nth-child(4)  {display: none;}
     #nav li:nth-child(5)  {display: none;}
     #nav li:nth-child(6)  {display: none;}
+    .sch_box{position: relative; left: 50px;}
+    .icons{position: relative; left: 105px;}
+    .sch_box input {width: 30px;}
+    .heart_icon{margin-left: 10px;}
+
     /* .contant1{background-size: cover;} */
     .contant1 img{max-width: 100%;}
     .contant1 .txt_box1{display: none;}
     .contant2 img{max-width: 100%;}
     .contant2 .txt_box2{display: none;}
+    .swiper-wrapper{max-width: 100%;}
     .contant3 img{max-width: 100%;}
     .c2_txt_box{display: none;}
     .footer-top{max-width: 100%;}
@@ -135,3 +156,7 @@ img{max-width: 100%; height: 800px; position: relative; top: -50px;}
     .last_txt_left{max-width: 100%;} 
     .last_txt_right{max-width: 100%;} 
 }
+
+/* =========================== */
+.content_ {position: relative; width: 100%; height: 100vh; overflow: hidden;}
+.content_ img{width: 100%; height: auto; margin-left: 0; position: absolute;}
