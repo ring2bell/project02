@@ -4,11 +4,12 @@
 .inner{max-width: 1800px; width: 100%;  margin: auto;}
 .inner2{max-width: 1780px; width: 100%;  margin: auto;}
 
-.header_top{width: 100%; height: 40px; background: #e5e2e2;}
+.header_top{width: 100%; height: 40px; }
 .header_nav{width: 100%; height: 60px; }
 .contant1{width: 100%; height: 1000px;}
 .contant2{width: 100%; height: 1000px; margin-top: 400px; margin-bottom: 250px;}
 .contant3{width: 100%; height: 1000px; margin-bottom: 200px;  }
+.contant4{width: 100%; height: 1000px; margin-bottom: 200px;  }
 .footer_top{width: 100%; height: 40px;}
 .footer_nav{width: 100%; height: 350px; border-top: 0.5px solid #777777; border-bottom: 0.5px solid #777777;}
 .footer_bottom{width: 100%; height: 50px; border-bottom: 0.5px solid #777777;}
