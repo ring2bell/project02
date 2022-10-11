@@ -15,7 +15,7 @@
  #gnb li ul li dl dt a { color: #333; font-size: 1em; font-weight: bold; line-height: 180%; } 
  #gnb li ul li dl dd a { color: #777; font-size: 0.8em; font-weight: bold; line-height: 170%; padding-left: 10px; } 
  #gnb li ul li h3 a { color: #097a84; font-weight: bold; line-height: 200%; margin-bottom: 3px; } 
- #sch_text { width: 180px; height: 35px; border-radius: 40px; background-color: #e5e2e2; position: relative; top: -80px; right: 120px; font-size: 17px; box-sizing: border-box; padding-left: 40px; } 
+ #sch_text { width: 200px; height: 35px; border-radius: 40px; background-color: #e5e2e2; position: relative; top: -80px; right: 120px; font-size: 17px; box-sizing: border-box; padding-left: 40px; } 
  .search_icon { width: 25px; height: 25px; background: url(../img/search.png) no-repeat; background-size: cover; position: relative; top: -75px; left: -91px; } 
  .heart_icon { width: 25px; height: 25px; background: url(../img/free-icon-heart-shape-outline-25424.png) no-repeat; background-size: cover; position: relative; top: -75px; left: 150px; } 
  .shopping_back_icon { width: 25px; height: 25px; background: url(../img/free-icon-shopping-bag-709488.png) no-repeat; background-size: cover; position: relative; top: -75px; left: 220px; } 
@@ -47,6 +47,7 @@
 
  .swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; } 
  .c2_txt_box{font-size: 40px; color: #111; font-weight: bold; text-align: center; margin-top: 70px; padding-bottom: 80px;}
+.contant_3 .c2_txt_box:last-child{margin-bottom: 10px; color: #fff;}
 
 /* =============//content3============== */
 
@@ -83,20 +84,14 @@
     .icons{position: relative; left: 240px;}
     .contant1{background-size: cover;}
    /*  .contant1 img{max-width: 100%;} */
-    .contant1 .txt_box1{box-sizing: border-box; max-width: 100%; text-align: center;}
-    .contant1 .txt_box1 h2{text-align: center;}
-    .contant2 img{max-width: 100%;}
-    .contant2 .txt_box2{box-sizing: border-box; max-width: 100%; text-align: center;}
-    .contant2 .txt_box2 h2{text-align: center;}
-    .swiper-wrapper{max-width: 100%;}
-    .contant3 img{max-width: 100%;}
-    .c2_txt_box{box-sizing: border-box; max-width: 100%; text-align: center;}
-    #footer{max-width: 100%;}
-    .footer-top{max-width: 100%;}
-    .footer-bottom{max-width: 100%;}
-    .footer-bottom2{max-width: 100%;}
-    .last_txt_left{max-width: 100%;} 
-    .last_txt_right{max-width: 100%;} 
+    .contant_1 img{max-width: 100%;}
+    .contant_1 .txt_box1{max-width: 100%;}
+    .contant_2 img{max-width: 100%;}
+    .contant_2 .txt_box2{max-width: 100%;}
+    .contant_3 .swiper {max-width: 100%;}
+    .contant_4 .swiper {max-width: 100%;}
+    footer{max-width: 100%;}
+
 }
 @media screen and (max-width: 800px){
     .wrap .inner { width: 100%; } 
@@ -111,50 +106,52 @@
     .search_icon {margin-right: 30px;}
     .icons{position: relative; left: 70px;}
     /* .contant1{background-size: cover;} */
-    .contant1 img{max-width: 100%;}
-    .contant1 .txt_box1{box-sizing: border-box; max-width: 100%; text-align: center;}
-    .contant1 .txt_box1 h2{text-align: center;}
-    .contant1 .txt_box1 p{display: none;}
-    .contant2 img{max-width: 100%;}
-    .contant2 .txt_box2{box-sizing: border-box; max-width: 100%; text-align: center;}
-    .contant2 .txt_box2 h2{text-align: center;}
-    .contant2 .txt_box2 p{display: none;}
-    .swiper-wrapper{max-width: 100%;}
-    .contant3 img{max-width: 100%;}
-    .c2_txt_box{box-sizing: border-box; max-width: 100%; text-align: center;}
-    .footer-top{max-width: 100%;}
-    .footer-bottom{max-width: 100%;}
-    .footer-bottom2{max-width: 100%;}
-    .last_txt_left{max-width: 100%;} 
-    .last_txt_right{max-width: 100%;} 
+    .contant_1 img{max-width: 100%;}
+    .contant_1 .txt_box1{max-width: 100%;}
+    .contant_1 .txt_box1 p{display: none;}
+    .contant_2 img{max-width: 100%;}
+    .contant_2 .txt_box2{max-width: 100%;}
+    .contant_2 .txt_box2 p{display: none;}
+    .contant_3 .swiper {max-width: 100%;}
+    .contant_4 .swiper {max-width: 100%;}
+    footer{max-width: 100%;}
+    #footer{height: 730px; width: 100%; background: black;}
+    .footer_nav_container ul li{margin-right: 50px; }
+    .footer_nav_container dl dt {margin-right: 50px;}
+    .footer_nav_container dl dd {margin-right: 50px;}
+    footer .footer_bottom2{content:''; display: inline; clear: both;}
+    footer .footer_bottom2 .last_txt_left{margin-left: 60px; max-width: 100%;}
+    footer .footer_bottom2 .last_txt_right {max-width: 100%;}
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 650px){
     .wrap .inner { width: 100%; } 
     .wrap .inner2 { width: 100%; } 
-    #nikeLogo {display: none;}
     #nav li:nth-child(2)  {z-index: -1;}
     #nav li:nth-child(3)  {display: none;}
     #nav li:nth-child(4)  {display: none;}
     #nav li:nth-child(5)  {display: none;}
     #nav li:nth-child(6)  {display: none;}
-    .sch_box{position: relative; left: 50px;}
-    .icons{position: relative; left: 105px;}
-    .sch_box input {width: 30px;}
-    .heart_icon{margin-left: 10px;}
-
+    .sch_box{position: relative; right: 10px;}
+    #sch_text{width: 250px; position: relative; right: 150px;}
+    .search_icon {margin-right: 30px;}
+    .icons{position: relative; left: 70px;}
     /* .contant1{background-size: cover;} */
-    .contant1 img{max-width: 100%;}
-    .contant1 .txt_box1{display: none;}
-    .contant2 img{max-width: 100%;}
-    .contant2 .txt_box2{display: none;}
-    .swiper-wrapper{max-width: 100%;}
-    .contant3 img{max-width: 100%;}
-    .c2_txt_box{display: none;}
-    .footer-top{max-width: 100%;}
-    .footer-bottom{max-width: 100%;}
-    .footer-bottom2{max-width: 100%;}
-    .last_txt_left{max-width: 100%;} 
-    .last_txt_right{max-width: 100%;} 
+    .contant_1 img{max-width: 100%;}
+    .contant_1 .txt_box1{max-width: 100%;}
+    .contant_1 .txt_box1 p{display: none;}
+    .contant_2 img{max-width: 100%;}
+    .contant_2 .txt_box2{max-width: 100%;}
+    .contant_2 .txt_box2 p{display: none;}
+    .contant_3 .swiper {max-width: 100%;}
+    .contant_4 .swiper {max-width: 100%;}
+    footer{max-width: 100%;}
+    #footer{height: 730px; width: 100%; background: black;}
+    .footer_nav_container ul li{margin-right: 10px; }
+    .footer_nav_container dl dt {margin-right: 10px;}
+    .footer_nav_container dl dd {margin-right: 10px;}
+    footer .footer_bottom2{content:''; display: inline; clear: both;}
+    footer .footer_bottom2 .last_txt_left{margin-left: 60px; max-width: 100%;}
+    footer .footer_bottom2 .last_txt_right {max-width: 100%;}
 }
 
 /* =========================== */
