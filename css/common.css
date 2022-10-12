@@ -4,11 +4,11 @@
 
 #gnb { width: 100%; height: 60px; background: #fff; position: relative; } 
 .nike_Logo_w { width: 100px; height: 60px; background: url(../img/nike_logo.gif) no-repeat; background-size: contain; position: relative; top:15px; right: 410px; } 
-#nav { max-width: 1800px; margin: 0 auto; display: flex; } 
+#nav { max-width: 1900px; margin: 0 auto; display: flex; } 
 #nav li { height: auto; margin: 0 38px; } 
 #nav li>a { display: block; color: #333; line-height: 94px; text-align: center; font-size: 1.2em; font-weight: bold; position: relative; left: 278px; top: -15px; } 
 #nav li .m_width .m1_tit { padding: 0 20px; align-items: center; justify-content: center; } 
-#nav li div.width100 { position: absolute; top: 60px; left: 0; background: #fff; width: 100%; border-bottom: 1px solid transparent;box-shadow: 0 0 0 rgba(0, 0, 0, 0); height: 0px; overflow: hidden; padding: 0 0; transition: all 0.5s; } 
+#nav li div.width100 { position: absolute; top: 60px; left: 10px; background: #fff; width: 100%; border-bottom: 1px solid transparent;box-shadow: 0 0 0 rgba(0, 0, 0, 0); height: 0px; overflow: hidden; padding: 0 0; transition: all 0.5s; } 
 #nav li:hover div.width100 { height: auto; padding: 20px 0; border-bottom: 1px solid #e8e6f3; box-shadow: 0 5px rgba(0, 0, 0,.3); z-index: 1; } 
 #gnb li ul li { width: 200px; margin: 0; border-left: 1px solid #c9c9c9; padding: 20px; position: relative; left: 350px; } 
  #gnb li ul li h2 { font-size: 1.5em; font-weight: bold; text-align: center; color: #e95a65; padding-top: 2px; } 
